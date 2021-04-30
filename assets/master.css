@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  border-bottom: 1px solid #BCBDBF;
+}
+nav .nav-bar-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+nav .nav-bar-1 .left, nav .nav-bar-1 .right {
+  display: flex;
+  align-items: center;
+  margin: 0px 20px;
+}
+nav .nav-bar-1 .left p {
+  font-size: 21px;
+  color: gray;
+}
+nav .nav-bar-1 .right .circle {
+  margin-left: 10px;
+  background-color: green;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .nav-bar-1 .right .circle p {
+  font-size: 25px;
+  color: white;
+}
+nav .nav-bar-2 {
+  margin-bottom: 11px;
+}
+nav .nav-bar-2 ul {
+  display: flex;
+  list-style: none;
+}
+nav .nav-bar-2 ul li {
+  margin: 0 20px;
+}
+nav .nav-bar-2 ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #BCBDBF;
+}
+nav .nav-bar-2 ul li a.select {
+  color: blue;
+}
