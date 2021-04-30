@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -33,15 +33,15 @@ nav .nav-bar-1 .left p {
 nav .nav-bar-1 .right .circle {
   margin-left: 10px;
   background-color: green;
-  height: 50px;
-  width: 50px;
+  height: 35px;
+  width: 35px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 nav .nav-bar-1 .right .circle p {
-  font-size: 25px;
+  font-size: 20px;
   color: white;
 }
 nav .nav-bar-2 {
@@ -69,7 +69,44 @@ main .container h2 {
 main .container p {
   margin: 30px 0;
 }
+main .container li {
+  margin: 15px;
+}
+main .container ol {
+  padding-left: 15px;
+}
+main .container ol li {
+  padding-left: 15px;
+}
+main .container ul {
+  padding-left: 31px;
+}
+main .container ul li {
+  padding-left: 10px;
+}
 
 .select {
   color: blue;
+}
+
+footer {
+  height: 50px;
+  background-color: #F5F5F5;
+  display: flex;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .left ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+footer .container .left ul li {
+  margin: 0 5px;
+}
+footer .container .left ul li a {
+  text-decoration: none;
 }

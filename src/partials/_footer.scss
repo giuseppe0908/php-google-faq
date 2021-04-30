@@ -1,0 +1,22 @@
+footer {
+  height: 50px;
+  background-color: #F5F5F5;
+  display: flex;
+  .container{
+    @include my-flex-space-between;
+    align-items: center;
+    .left{
+      ul{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        li{
+          margin: 0 5px;
+          a{
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
