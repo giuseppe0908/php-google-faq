@@ -14,8 +14,21 @@ footer {
           margin: 0 5px;
           a{
             text-decoration: none;
+            color: #5F6368;
+            font-size: 11px;
           }
         }
+      }
+    }
+    .right{
+      display: flex;
+      align-items: center;
+      img{
+        width: 30px;
+        margin-right: 2px;
+      }
+      select{
+        width: 130px;
       }
     }
   }
